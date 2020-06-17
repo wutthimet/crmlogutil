@@ -14,8 +14,8 @@ type Error struct {
 }
 
 type StackTrace struct {
-	File string `json:"file"`
-	Line int `json:"line"`
+	File     string `json:"file"`
+	Line     int    `json:"line"`
 	Function string `json:"function"`
 }
 
@@ -45,7 +45,6 @@ func getStackTraceError() string {
 	}
 	return trace
 }
-
 
 func GetStackTrace() (stacktrace StackTrace) {
 	stackBuf := make([]uintptr, maxStackLength)

@@ -11,12 +11,11 @@ type LogLevel interface {
 }
 
 const (
-	FATAL   = logLevels("FATAL")
-	ERROR  = logLevels("ERROR")
-	WARN = logLevels("WARN")
-	INFO   = logLevels("INFO")
-	DEBUG  = logLevels("DEBUG")
+	FATAL = logLevels("FATAL")
+	ERROR = logLevels("ERROR")
+	WARN  = logLevels("WARN")
+	INFO  = logLevels("INFO")
+	DEBUG = logLevels("DEBUG")
 	TRACE = logLevels("TRACE")
-	ALL = logLevels("ALL")
+	ALL   = logLevels("ALL")
 )
-

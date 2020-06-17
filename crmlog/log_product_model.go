@@ -11,11 +11,10 @@ type LogProductName interface {
 }
 
 const (
-	TrueOnline   = productNames("TrueOnline")
-	TrueMoveH  = productNames("TrueMoveH")
+	TrueOnline  = productNames("TrueOnline")
+	TrueMoveH   = productNames("TrueMoveH")
 	TrueVisions = productNames("TrueVisions")
-	IoT = productNames("IoT")
-	Convergence   = productNames("Convergence")
-	All = productNames("All")
+	IoT         = productNames("IoT")
+	Convergence = productNames("Convergence")
+	All         = productNames("All")
 )
-

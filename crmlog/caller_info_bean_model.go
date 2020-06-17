@@ -1,8 +1,7 @@
 package crmlog
 
-
 type CallerInfoBean struct {
-	ClassName string `json:"className"`
+	ClassName  string `json:"className"`
 	MethodName string `json:"methodName"`
-	FileName string `json:"fileName"`
+	FileName   string `json:"fileName"`
 }

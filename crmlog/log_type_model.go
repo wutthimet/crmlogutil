@@ -12,7 +12,6 @@ type LogType interface {
 
 const (
 	Monitor   = logTypes("Monitor")
-	AppLog  = logTypes("AppLog")
+	AppLog    = logTypes("AppLog")
 	ServerLog = logTypes("ServerLog")
 )
-

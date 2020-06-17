@@ -11,12 +11,12 @@ type LogMonitorType interface {
 }
 
 const (
-	Application   = monitorTypes("Application")
-	XMLProvider  = monitorTypes("XMLProvider")
-	XMLClient = monitorTypes("XMLClient")
-	WebServiceProvider = monitorTypes("WebServiceProvider")
-	WebServiceClient   = monitorTypes("WebServiceClient")
+	Application         = monitorTypes("Application")
+	XMLProvider         = monitorTypes("XMLProvider")
+	XMLClient           = monitorTypes("XMLClient")
+	WebServiceProvider  = monitorTypes("WebServiceProvider")
+	WebServiceClient    = monitorTypes("WebServiceClient")
 	RESTServiceProvider = monitorTypes("RESTServiceProvider")
 	RESTServiceClient   = monitorTypes("RESTServiceClient")
-	DatabaseClient  = monitorTypes("DatabaseClient")
+	DatabaseClient      = monitorTypes("DatabaseClient")
 )

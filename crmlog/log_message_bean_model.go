@@ -1,6 +1,5 @@
 package crmlog
 
-
 type LogMessageBean struct {
 	Timestamp       string         `json:"@timestamp""`
 	ApplicationName string         `json:"@suffix"`
@@ -17,6 +16,6 @@ type LogMessageBean struct {
 	TargetSystem    LogSystem      `json:"targetSystem"`
 	TargetURL       string         `json:"targetURL"`
 	Action          string         `json:"action"`
-	ElapsedTime     int64         `json:"elapsedTime"`
+	ElapsedTime     int64          `json:"elapsedTime"`
 	ResponseCode    string         `json:"responseCode"`
 }
