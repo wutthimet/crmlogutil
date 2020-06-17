@@ -1,4 +1,4 @@
-package logger
+package crmlog
 
 type sourceSystems string
 

@@ -1,4 +1,4 @@
-package logger
+package crmlog
 
 import (
 	"encoding/json"
