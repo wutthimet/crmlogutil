@@ -1,4 +1,4 @@
-package crmlogutil
+package logger
 
 type logTypes string
 
@@ -12,6 +12,7 @@ type LogType interface {
 
 const (
 	Monitor   = logTypes("Monitor")
-	AppLog    = logTypes("AppLog")
+	AppLog  = logTypes("AppLog")
 	ServerLog = logTypes("ServerLog")
 )
+
